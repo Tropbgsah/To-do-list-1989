@@ -72,8 +72,6 @@ exportBtn.addEventListener('click',()=>{
   let a=document.createElement('a');a.href=data;a.download="tasks.json";a.click()
 })
 
-// theme
-themeSwitch.addEventListener('change',()=>{document.body.classList.toggle('light',themeSwitch.checked)})
 
 // init
 saveTags();renderTasks()
